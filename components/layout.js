@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="My personal blog made with Next js"
         />
         <meta
           property="og:image"
@@ -30,10 +30,10 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/kitten.jpeg"
+              src="/images/profile.jpg"
               className={utilStyles.borderCircle}
-              height={144}
-              width={144}
+              height={315}
+              width={240}
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
@@ -44,10 +44,10 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="/images/kitten.jpeg"
+                  src="/images/profile.jpg"
                   className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
+                  height={315}
+                  width={240}
                   alt={name}
                 />
               </a>
